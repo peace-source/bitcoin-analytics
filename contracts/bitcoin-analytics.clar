@@ -1,16 +1,19 @@
-;; Title: Bitcoin Analytics Protocol (BAP)
-;; 
-;; Summary:
-;; A decentralized analytics and governance protocol built on Stacks Layer 2,
-;; enabling Bitcoin-native staking, tiered rewards, and DAO governance.
+;; Title: Bitcoin Analytics Protocol (BAP) - Layer 2 Staking & Governance
+;; Summary
+;; Decentralized analytics infrastructure enabling STX staking, data governance, and tiered rewards
+;; while maintaining Bitcoin-native security through Stacks Layer 2 integration.
+
+;; Description
+;; BAP creates a Bitcoin-aligned ecosystem where participants can:
+;; - Stake STX to earn ANALYTICS-TOKEN rewards with variable lock-up periods
+;; - Govern decentralized data operations through proposal voting
+;; - Access tier-based benefits including enhanced rewards and platform features
+;; - Participate in emergency protocol controls with Bitcoin-compliant security measures
 ;;
-;; Description:
-;; BAP introduces a sophisticated staking mechanism that allows users to earn
-;; rewards by providing liquidity to the protocol while participating in
-;; governance decisions. The protocol implements a tier-based system with
-;; dynamic reward multipliers, time-locked staking options, and a robust
-;; governance framework - all while maintaining Bitcoin compliance and
-;; leveraging Stacks Layer 2 scalability.
+;; The protocol features automatic reward calculation, cooldown-protected unstaking,
+;; and multi-tier governance thresholds. Designed for compliance with Bitcoin's security model,
+;; BAP leverages Stacks Layer 2 capabilities for smart contract functionality while maintaining
+;; Bitcoin-finalized transaction settlement.
 
 ;; Token Definition
 (define-fungible-token ANALYTICS-TOKEN u0)
